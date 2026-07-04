@@ -1,0 +1,37 @@
+{
+  // Example AI agent settings.
+  // Adapt this file to the tools and paths used by the project.
+  "fileAccess": {
+    "readOnlyAllowedPaths": [
+      "README.md",
+      "docs/",
+      "src/",
+      "tests/"
+    ],
+    "deniedPaths": [
+      ".env",
+      ".env.*",
+      "secrets/",
+      "private/",
+      "*.pem",
+      "*.key",
+      "*.p12",
+      "*.pfx"
+    ]
+  },
+  "approvalRequiredOperations": [
+    "delete-files",
+    "move-files",
+    "modify-dependencies",
+    "run-shell-command",
+    "send-project-data-to-external-service"
+  ],
+  "shell": {
+    "defaultMode": "approval-required",
+    "denyByDefault": true
+  },
+  "secretsPolicy": {
+    "reference": "docs/policy/SECRETS_MANAGEMENT.md",
+    "allowRealSecretsInPromptContext": false
+  }
+}

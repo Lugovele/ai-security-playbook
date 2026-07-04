@@ -1,0 +1,38 @@
+# Example AI agent ignore file.
+# Adapt this file for each project.
+# This protects files from AI agent access, not only from git commits.
+
+# Local environment files
+.env
+.env.*
+!.env.example
+
+# Local secrets and credentials
+secrets/
+private/
+.local/
+credentials/
+*.key
+*.pem
+*.p12
+*.pfx
+*.token
+*.secret
+
+# Database dumps and local data exports
+*.sql
+*.dump
+*.bak
+exports/
+
+# Logs that may contain sensitive data
+logs/
+*.log
+
+# Generated artifacts
+node_modules/
+dist/
+build/
+coverage/
+__pycache__/
+.pytest_cache/
