@@ -10,13 +10,15 @@ Status: Approved
 
 This document defines the documentation standard for the AI Security Knowledge Base.
 
-Consistent documentation makes the knowledge base easier to read, maintain, review, and reuse across projects. It also reduces ambiguity when new documents are added or existing documents evolve.
+Consistent documentation makes the knowledge base easier to read, maintain, review, and reuse across
+projects. It also reduces ambiguity when new documents are added or existing documents evolve.
 
 ---
 
 ## Scope
 
-This document governs documentation quality, structure, terminology, review, and maintenance for the AI Security Knowledge Base.
+This document governs documentation quality, structure, terminology, review, and maintenance for the
+AI Security Knowledge Base.
 
 It does not define security policy.
 
@@ -28,15 +30,21 @@ It does not define implementation guidance.
 
 The knowledge base supports the following document categories.
 
-Policy documents define required security positions, boundaries, and expectations. They should be stable, concise, and implementation-neutral.
+Policy documents define required security positions, boundaries, and expectations. They should be
+stable, concise, and implementation-neutral.
 
-Engineering Guidance documents explain how to apply policy in engineering contexts. They may describe responsibilities, decision points, and project adaptation needs without prescribing a specific implementation.
+Engineering Guidance documents explain how to apply policy in engineering contexts. They may
+describe responsibilities, decision points, and project adaptation needs without prescribing a
+specific implementation.
 
-Operational Checklist documents convert existing guidance into short verification steps. They should be fast to scan and should not redefine policy.
+Operational Checklist documents convert existing guidance into short verification steps. They should
+be fast to scan and should not redefine policy.
 
-Reference documents define shared terms, classifications, or reusable concepts. They should reduce duplication across the knowledge base.
+Reference documents define shared terms, classifications, or reusable concepts. They should reduce
+duplication across the knowledge base.
 
-Examples provide implementation-oriented material that projects may adapt. They should remain separate from policy and guidance documents.
+Examples provide implementation-oriented material that projects may adapt. They should remain
+separate from policy and guidance documents.
 
 ---
 
@@ -44,7 +52,8 @@ Examples provide implementation-oriented material that projects may adapt. They 
 
 Every document must own exactly one responsibility.
 
-Documents should not duplicate one another. When a concept belongs to another document, use a cross-reference instead of restating the same material.
+Documents should not duplicate one another. When a concept belongs to another document, use a
+cross-reference instead of restating the same material.
 
 A document may summarize related context only when the summary is necessary for readability.
 
@@ -63,7 +72,9 @@ Common sections include:
 - Project Adaptation, where applicable
 - Related Examples, where applicable
 
-Sections may be omitted when they do not fit the document type. For example, an operational checklist may not need Project Adaptation, and an example file may not need the full document structure.
+Sections may be omitted when they do not fit the document type. For example, an operational
+checklist may not need Project Adaptation, and an example file may not need the full document
+structure.
 
 The structure should support clarity rather than force unnecessary boilerplate.
 
@@ -75,7 +86,9 @@ Terminology must be defined once and reused consistently.
 
 Shared terms should be defined in TERMINOLOGY.md.
 
-Documents should avoid redefining terms that already exist elsewhere in the knowledge base. If a term needs refinement, update the owning reference document instead of creating competing definitions.
+Documents should avoid redefining terms that already exist elsewhere in the knowledge base. If a
+term needs refinement, update the owning reference document instead of creating competing
+definitions.
 
 ---
 
@@ -101,11 +114,14 @@ Write for experienced engineers who need to apply the document during real proje
 
 ## Cross References
 
-Documents should reference related documents when a reader needs context from another part of the knowledge base.
+Documents should reference related documents when a reader needs context from another part of the
+knowledge base.
 
-Cross-references should be used to avoid duplication, clarify ownership, and keep document responsibilities separate.
+Cross-references should be used to avoid duplication, clarify ownership, and keep document
+responsibilities separate.
 
-A cross-reference should point to the document that owns the topic rather than restating that topic locally.
+A cross-reference should point to the document that owns the topic rather than restating that topic
+locally.
 
 ---
 
@@ -113,15 +129,20 @@ A cross-reference should point to the document that owns the topic rather than r
 
 Every document should be independently reviewed from the following perspectives.
 
-Application Security review verifies that the document does not weaken the security model or introduce ambiguous security expectations.
+Application Security review verifies that the document does not weaken the security model or
+introduce ambiguous security expectations.
 
-Platform Engineering review verifies that the document can be applied across realistic development environments and project structures.
+Platform Engineering review verifies that the document can be applied across realistic development
+environments and project structures.
 
-DevOps review verifies that the document works during project setup, maintenance, startup, runtime, and operational review.
+DevOps review verifies that the document works during project setup, maintenance, startup, runtime,
+and operational review.
 
-Software Engineering review verifies that the document is maintainable, coherent, and compatible with normal engineering workflows.
+Software Engineering review verifies that the document is maintainable, coherent, and compatible
+with normal engineering workflows.
 
-Developer Experience review verifies that the document is readable, scannable, and usable by engineers who did not write it.
+Developer Experience review verifies that the document is readable, scannable, and usable by
+engineers who did not write it.
 
 ---
 
@@ -129,11 +150,13 @@ Developer Experience review verifies that the document is readable, scannable, a
 
 Existing documents should be modified when there is a clear reason.
 
-Valid reasons include factual correction, architectural inconsistency, terminology drift, improved engineering practice, usability improvement, or removal of duplication.
+Valid reasons include factual correction, architectural inconsistency, terminology drift, improved
+engineering practice, usability improvement, or removal of duplication.
 
 Unnecessary rewrites should be avoided.
 
-Edits should preserve the document's responsibility, structure, and intended audience unless those elements are the source of the problem.
+Edits should preserve the document's responsibility, structure, and intended audience unless those
+elements are the source of the problem.
 
 ---
 
@@ -143,6 +166,7 @@ Version 1.0 represents a stable baseline for the document.
 
 Subsequent versions should evolve conservatively.
 
-Version changes should reflect meaningful updates to document responsibility, scope, or guidance rather than routine wording improvements.
+Version changes should reflect meaningful updates to document responsibility, scope, or guidance
+rather than routine wording improvements.
 
 The knowledge base should prefer incremental maintenance over frequent restructuring.

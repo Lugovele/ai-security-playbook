@@ -2,27 +2,37 @@
 
 > **Reusable engineering standards for secure AI-assisted software development.**
 
-A vendor-neutral documentation framework that helps engineering teams introduce AI coding assistants without relying on scattered conventions, undocumented practices, or tool-specific guidance.
+A vendor-neutral documentation framework that helps engineering teams introduce AI coding assistants
+without relying on scattered conventions, undocumented practices, or tool-specific guidance.
 
 ---
 
 ## Why I Built This
 
-AI coding assistants are changing software engineering faster than engineering standards are evolving.
+AI coding assistants are changing software engineering faster than engineering standards are
+evolving.
 
-Across different projects I repeatedly encountered the same problem: security guidance existed, but it was scattered across onboarding documents, internal conventions, vendor documentation, and individual experience. Reusing it from one project to another required rebuilding the same engineering practices every time.
+Across different projects I repeatedly encountered the same problem: security guidance existed, but
+it was scattered across onboarding documents, internal conventions, vendor documentation, and
+individual experience. Reusing it from one project to another required rebuilding the same
+engineering practices every time.
 
-This repository is my attempt to solve that problem by treating documentation as an engineering system rather than a collection of documents.
+This repository is my attempt to solve that problem by treating documentation as an engineering
+system rather than a collection of documents.
 
-Instead of mixing security policy, implementation guidance, operational checklists, and project-specific notes, the repository separates them into independent documentation layers with explicit responsibilities.
+Instead of mixing security policy, implementation guidance, operational checklists, and
+project-specific notes, the repository separates them into independent documentation layers with
+explicit responsibilities.
 
-The goal is not to prescribe how software should be built, but to provide a reusable engineering foundation that teams can adapt to their own projects.
+The goal is not to prescribe how software should be built, but to provide a reusable engineering
+foundation that teams can adapt to their own projects.
 
 ---
 
 # What Makes This Repository Different
 
-Unlike traditional security documentation, this repository is designed as an engineering architecture.
+Unlike traditional security documentation, this repository is designed as an engineering
+architecture.
 
 - Security policy is separated from implementation.
 - Engineering guidance is separated from operational verification.
@@ -85,24 +95,16 @@ Reference
 
 ```mermaid
 flowchart TD
-
-README --> BASELINE["Security Baseline"]
-
-BASELINE --> FILE_ACCESS["File Access Policy"]
-BASELINE --> AGENTS["Agent Permissions"]
-BASELINE --> SECRETS["Secrets Management"]
-
-SECRETS --> RUNTIME["Runtime Secrets"]
-
-RUNTIME --> STARTUP["Secure Application Startup"]
-
-STARTUP --> ADAPT["Project Adaptation"]
-
-ADAPT --> CHECKLIST["Security Checklist"]
-
-CHECKLIST --> DOCS["Documentation Standard"]
-
-DOCS --> TERMS["Terminology"]
+    README["README"] --> BASELINE["Security Baseline"]
+    BASELINE --> FILE_ACCESS["File Access Policy"]
+    BASELINE --> AGENTS["Agent Permissions"]
+    BASELINE --> SECRETS["Secrets Management"]
+    SECRETS --> RUNTIME["Runtime Secrets"]
+    RUNTIME --> STARTUP["Secure Application Startup"]
+    STARTUP --> ADAPT["Project Adaptation"]
+    ADAPT --> CHECKLIST["Security Checklist"]
+    CHECKLIST --> DOCS["Documentation Standard"]
+    DOCS --> TERMS["Terminology"]
 ```
 
 ---
@@ -131,12 +133,10 @@ assets/
 
 ```mermaid
 flowchart LR
-
-COPY["Copy the Playbook"]
-    --> ADAPT["Adapt to Your Project"]
-    --> IMPLEMENT["Implement Engineering Guidance"]
-    --> REVIEW["Run the Security Checklist"]
-    --> MAINTAIN["Maintain Documentation"]
+    COPY["Copy the Playbook"] --> ADAPT["Adapt to Your Project"]
+    ADAPT --> IMPLEMENT["Implement Engineering Guidance"]
+    IMPLEMENT --> REVIEW["Run the Security Checklist"]
+    REVIEW --> MAINTAIN["Maintain Documentation"]
 ```
 
 ---
@@ -153,7 +153,8 @@ COPY["Copy the Playbook"]
 
 # Typical Use Cases
 
-This repository is intended for engineering teams that want consistent standards for AI-assisted software development.
+This repository is intended for engineering teams that want consistent standards for AI-assisted
+software development.
 
 Typical scenarios include:
 
@@ -205,9 +206,11 @@ Its scope is intentionally limited to **secure AI-assisted software development*
 
 This repository represents a stable engineering baseline.
 
-Future versions evolve conservatively based on practical engineering experience rather than theoretical completeness.
+Future versions evolve conservatively based on practical engineering experience rather than
+theoretical completeness.
 
-The long-term goal is to validate and refine the playbook through real software projects instead of continuously expanding documentation.
+The long-term goal is to validate and refine the playbook through real software projects instead of
+continuously expanding documentation.
 
 ---
 
