@@ -16,6 +16,8 @@ Review date:
 
 Knowledge base version:
 
+Use each checklist item as Yes / No / Not applicable.
+
 ---
 
 ## Project Initialization

@@ -24,15 +24,31 @@ Short project summary:
 
 Primary application components:
 
+- Example: web app
+- Example: background worker
+- Example: database
+
 Development workflow:
 
+- Example: local development
+- Example: code review
+- Example: AI-assisted editing
+
 Runtime model:
+
+- Example: local runtime
+- Example: test environment
+- Example: production runtime
 
 ---
 
 ## Protected Assets
 
 List protected assets:
+
+- Example: local `.env` files
+- Example: private API keys
+- Example: database dumps
 
 ---
 
