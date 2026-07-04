@@ -35,10 +35,10 @@ loading, wrapper scripts, secret lifecycle, or project-specific configuration.
 
 ## Related Documents
 
-- SECURITY_BASELINE.md
-- AGENT_PERMISSIONS.md
-- SECRETS_MANAGEMENT.md
-- ../guidance/PROJECT_ADAPTATION.md
+- [Security Baseline](SECURITY_BASELINE.md)
+- [Agent Permissions](AGENT_PERMISSIONS.md)
+- [Secrets Management](SECRETS_MANAGEMENT.md)
+- [Project Adaptation](../guidance/PROJECT_ADAPTATION.md)
 
 ---
 

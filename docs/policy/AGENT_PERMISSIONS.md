@@ -44,10 +44,10 @@ File accessibility is defined separately in FILE_ACCESS_POLICY.md.
 
 ## Related Documents
 
-- SECURITY_BASELINE.md
-- FILE_ACCESS_POLICY.md
-- SECRETS_MANAGEMENT.md
-- ../guidance/PROJECT_ADAPTATION.md
+- [Security Baseline](SECURITY_BASELINE.md)
+- [File Access Policy](FILE_ACCESS_POLICY.md)
+- [Secrets Management](SECRETS_MANAGEMENT.md)
+- [Project Adaptation](../guidance/PROJECT_ADAPTATION.md)
 
 ---
 

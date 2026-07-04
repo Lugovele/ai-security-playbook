@@ -32,10 +32,10 @@ management product, deployment model, or runtime platform.
 
 ## Related Documents
 
-- ../policy/SECURITY_BASELINE.md
-- ../policy/SECRETS_MANAGEMENT.md
-- SECURE_APPLICATION_STARTUP.md
-- PROJECT_ADAPTATION.md
+- [Security Baseline](../policy/SECURITY_BASELINE.md)
+- [Secrets Management](../policy/SECRETS_MANAGEMENT.md)
+- [Secure Application Startup](SECURE_APPLICATION_STARTUP.md)
+- [Project Adaptation](PROJECT_ADAPTATION.md)
 
 ---
 

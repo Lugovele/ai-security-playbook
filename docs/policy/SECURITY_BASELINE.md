@@ -181,13 +181,13 @@ A project is considered compliant with this baseline when it meets the following
 
 ## Related Documents
 
-- FILE_ACCESS_POLICY.md
-- AGENT_PERMISSIONS.md
-- SECRETS_MANAGEMENT.md
-- ../guidance/RUNTIME_SECRETS.md
-- ../guidance/SECURE_APPLICATION_STARTUP.md
-- ../operations/CHECKLIST.md
-- ../guidance/PROJECT_ADAPTATION.md
+- [File Access Policy](FILE_ACCESS_POLICY.md)
+- [Agent Permissions](AGENT_PERMISSIONS.md)
+- [Secrets Management](SECRETS_MANAGEMENT.md)
+- [Runtime Secrets](../guidance/RUNTIME_SECRETS.md)
+- [Secure Application Startup](../guidance/SECURE_APPLICATION_STARTUP.md)
+- [Security Checklist](../operations/CHECKLIST.md)
+- [Project Adaptation](../guidance/PROJECT_ADAPTATION.md)
 
 ---
 

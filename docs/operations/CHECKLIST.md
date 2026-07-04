@@ -8,7 +8,7 @@ Status: Approved
 
 ## Purpose
 
-This checklist verifies implementation of the AI Security Knowledge Base.
+This checklist verifies implementation of the AI Security Playbook.
 
 It is not a replacement for the policy documents.
 
@@ -16,7 +16,7 @@ It is not a replacement for the policy documents.
 
 ## Scope
 
-This checklist applies to projects that adopt the AI Security Knowledge Base.
+This checklist applies to projects that adopt the AI Security Playbook.
 
 It verifies implementation.
 
@@ -26,13 +26,13 @@ It does not define security requirements.
 
 ## Related Documents
 
-- ../policy/SECURITY_BASELINE.md
-- ../policy/FILE_ACCESS_POLICY.md
-- ../policy/AGENT_PERMISSIONS.md
-- ../policy/SECRETS_MANAGEMENT.md
-- ../guidance/RUNTIME_SECRETS.md
-- ../guidance/SECURE_APPLICATION_STARTUP.md
-- ../guidance/PROJECT_ADAPTATION.md
+- [Security Baseline](../policy/SECURITY_BASELINE.md)
+- [File Access Policy](../policy/FILE_ACCESS_POLICY.md)
+- [Agent Permissions](../policy/AGENT_PERMISSIONS.md)
+- [Secrets Management](../policy/SECRETS_MANAGEMENT.md)
+- [Runtime Secrets](../guidance/RUNTIME_SECRETS.md)
+- [Secure Application Startup](../guidance/SECURE_APPLICATION_STARTUP.md)
+- [Project Adaptation](../guidance/PROJECT_ADAPTATION.md)
 
 ---
 

@@ -12,7 +12,7 @@ Reusable security guidance still requires project-specific adaptation because ev
 has its own architecture, data sensitivity, development workflow, runtime model, and technology
 stack.
 
-This document defines a repeatable procedure for applying the shared AI Security Knowledge Base to a
+This document defines a repeatable procedure for applying the shared AI Security Playbook to a
 specific project while keeping project-specific decisions explicit and reviewable.
 
 ---
@@ -29,13 +29,13 @@ project-specific context.
 
 ## Related Documents
 
-- ../policy/SECURITY_BASELINE.md
-- ../policy/FILE_ACCESS_POLICY.md
-- ../policy/AGENT_PERMISSIONS.md
-- ../policy/SECRETS_MANAGEMENT.md
-- RUNTIME_SECRETS.md
-- SECURE_APPLICATION_STARTUP.md
-- ../operations/CHECKLIST.md
+- [Security Baseline](../policy/SECURITY_BASELINE.md)
+- [File Access Policy](../policy/FILE_ACCESS_POLICY.md)
+- [Agent Permissions](../policy/AGENT_PERMISSIONS.md)
+- [Secrets Management](../policy/SECRETS_MANAGEMENT.md)
+- [Runtime Secrets](RUNTIME_SECRETS.md)
+- [Secure Application Startup](SECURE_APPLICATION_STARTUP.md)
+- [Security Checklist](../operations/CHECKLIST.md)
 
 ---
 

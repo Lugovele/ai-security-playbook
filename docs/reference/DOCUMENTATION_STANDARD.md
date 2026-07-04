@@ -8,7 +8,7 @@ Status: Approved
 
 ## Purpose
 
-This document defines the documentation standard for the AI Security Knowledge Base.
+This document defines the documentation standard for the AI Security Playbook.
 
 Consistent documentation makes the knowledge base easier to read, maintain, review, and reuse across
 projects. It also reduces ambiguity when new documents are added or existing documents evolve.
@@ -18,7 +18,7 @@ projects. It also reduces ambiguity when new documents are added or existing doc
 ## Scope
 
 This document governs documentation quality, structure, terminology, review, and maintenance for the
-AI Security Knowledge Base.
+AI Security Playbook.
 
 It does not define security policy.
 

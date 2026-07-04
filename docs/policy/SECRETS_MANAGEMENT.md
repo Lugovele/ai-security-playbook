@@ -33,11 +33,11 @@ operational controls are outside the scope of this reusable baseline.
 
 ## Related Documents
 
-- SECURITY_BASELINE.md
-- FILE_ACCESS_POLICY.md
-- AGENT_PERMISSIONS.md
-- ../guidance/RUNTIME_SECRETS.md
-- ../guidance/PROJECT_ADAPTATION.md
+- [Security Baseline](SECURITY_BASELINE.md)
+- [File Access Policy](FILE_ACCESS_POLICY.md)
+- [Agent Permissions](AGENT_PERMISSIONS.md)
+- [Runtime Secrets](../guidance/RUNTIME_SECRETS.md)
+- [Project Adaptation](../guidance/PROJECT_ADAPTATION.md)
 
 ---
 

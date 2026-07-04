@@ -33,10 +33,10 @@ startup implementations.
 
 ## Related Documents
 
-- ../policy/SECURITY_BASELINE.md
-- RUNTIME_SECRETS.md
-- PROJECT_ADAPTATION.md
-- ../operations/CHECKLIST.md
+- [Security Baseline](../policy/SECURITY_BASELINE.md)
+- [Runtime Secrets](RUNTIME_SECRETS.md)
+- [Project Adaptation](PROJECT_ADAPTATION.md)
+- [Security Checklist](../operations/CHECKLIST.md)
 
 ---
 
