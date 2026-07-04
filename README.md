@@ -202,7 +202,7 @@ Its scope is intentionally limited to **secure AI-assisted software development*
 
 # Repository Status
 
-**Version:** 1.0
+**Version:** 1.0.0
 
 This repository represents a stable engineering baseline.
 

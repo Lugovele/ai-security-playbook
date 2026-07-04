@@ -4,6 +4,11 @@
 
 This document explains how to report suspected security issues in this repository.
 
+## Supported Versions
+
+| Version | Supported |
+| --- | --- |
+| 1.0.x | Yes |
 ## Reporting a Security Issue
 
 If you discover a security issue in this repository, please open a private security report using the

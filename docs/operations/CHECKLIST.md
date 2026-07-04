@@ -1,6 +1,6 @@
 # Security Checklist
 
-Version: 1.0
+Version: 1.0.0
 
 Status: Approved
 
@@ -21,6 +21,38 @@ This checklist applies to projects that adopt the AI Security Playbook.
 It verifies implementation.
 
 It does not define security requirements.
+
+---
+
+## Baseline Compliance Verification
+
+Reference: [Security Baseline](../policy/SECURITY_BASELINE.md)
+
+### Critical
+
+□ No secrets are committed to source repositories.
+
+□ Protected assets are identified and access to them is restricted.
+
+□ AI agent access follows least privilege and need-to-know principles.
+
+□ AI agent context is limited to task-relevant files.
+
+□ Sensitive shell actions require explicit human approval.
+
+□ Runtime secrets are preferred over secrets stored in source-controlled files.
+
+□ Environment example files contain placeholders only.
+
+□ No real secrets, tokens, credentials, or private endpoints appear in examples.
+
+### Required
+
+□ Project-specific security decisions are documented.
+
+□ File access expectations are clear enough for developers and AI agents to follow.
+
+□ Agent permission expectations are clear enough for developers and AI agents to follow.
 
 ---
 
