@@ -71,7 +71,7 @@ Provides lightweight operational verification.
 
 ### Reference
 
-Keeps the knowledge base consistent and maintainable.
+Keeps the playbook consistent and maintainable.
 
 - [Documentation Standard](docs/reference/DOCUMENTATION_STANDARD.md)
 - [Terminology](docs/reference/TERMINOLOGY.md)
@@ -216,7 +216,7 @@ continuously expanding documentation.
 
 # Contributing
 
-Contributions should preserve the architecture of the knowledge base.
+Contributions should preserve the architecture of the playbook.
 
 Before proposing changes, review:
 
